@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    width: 80%;
+    margin: auto;
     padding: 0;
     text-align: center;
     background-image: url(../img/pattern.png);
@@ -9,6 +10,8 @@ body {
 /* header */
 
 header {
+    border-radius: 20px;
+    border: 10px inset green;
     background-image: url(../img/pattern.png);
     height: 150px;
     background-color: rgb(18, 173, 173);
@@ -16,6 +19,7 @@ header {
 }
 
 #logo-header {
+    padding-right: 20px;
     height: 70px;
     margin-top: 70px;
     padding-left: 10px;
@@ -98,8 +102,16 @@ footer {
     text-align: left;
 }
 
+img {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
 .container {
+    border-radius: 20px;
+    display: inline-block;
     position: relative;
+    border: 5px outset green;
 }
 
 .img-txt {

@@ -21,6 +21,7 @@ article {
 
 h1 {
     font-size: 30px;
+    margin-bottom: 5px;
 }
 
 #autore {
@@ -34,3 +35,8 @@ h1 {
 small {
     font-size: 10px;
 }
+
+.img-article {
+    margin-top: 20px;
+}
+

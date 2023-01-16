@@ -32,7 +32,9 @@ h1 {
     color: gray;
 }
 
-small {
+.small {
+    margin: 0;
+    padding: 0;
     font-size: 10px;
 }
 
@@ -40,3 +42,48 @@ small {
     margin-top: 20px;
 }
 
+ul {
+    padding: 10px 1em;
+}
+
+td {
+    width: 25%;
+}
+
+.tlargo {
+    width: 50%;
+}
+ 
+.ttop {
+    color: white;
+    background-color: blue;
+}
+
+
+.tr-odd {
+    background-color: aquamarine;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+footer {
+    margin-left: 10px;
+}
+
+.container {
+    position: relative;
+}
+
+.img-txt {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.interesse {
+    margin-bottom: 10px;
+}

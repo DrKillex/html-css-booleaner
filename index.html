@@ -17,22 +17,21 @@
         <section>
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
             <div class="grigio">scritto da <span id="autore">The booleaner</span></div>
-            <div><small class="grigio">il 10/10/2020</small></div>
+            <div class="grigio small">il 10/10/2020</div>
         </section>
         <!-- fine prima parte articolo -->
         <!-- foto articolo -->
-        <section>
+        <div>
             <img src="img/tim-1.jpg" alt="foto tim 1" class="img-article">
             <img src="img/tim-2.jpg" alt="foto tim 2" class="img-article">
-        </section>
+        </div>
         <!-- fine foto articolo -->
         <!-- descrizioni foto -->
-        <section>
-            <div>
-                <div><small>1st photo: John S. and James L Knight Foundation, by Scot Henrichsen</small></div>
-                <div><small>2nd photo: Wikimedia, by Paul Clarke</small></div>
-            </div>
-        </section>
+        <div  class="small">
+            <span>1st photo: John S. and James L Knight Foundation, by Scot Henrichsen</span>
+            <br>
+            <span>2nd photo: Wikimedia, by Paul Clarke</span>
+        </div>
         <!-- fine descrizioni foto -->
         <!-- seconda parte articolo -->
         <section>
@@ -49,7 +48,7 @@
             <!-- tabella -->
             <div>
                 <table>
-                    <thead>
+                    <thead class="ttop">
                         <tr>
                             <td>lorem 1</td>
                             <td>lorem 2</td>
@@ -57,22 +56,22 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="tr-odd">
                             <td>lorem ipsum dolor</td>
                             <td>lorem ipsum dolor</td>
-                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque necessitatibus veniam suscipit in dolorem sunt? Delectus, ut rem et rerum omnis voluptates ullam unde molestias consectetur dolorem, laudantium, excepturi nihil!</td>
+                            <td class="tlargo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque necessitatibus veniam suscipit in dolorem sunt? Delectus, ut rem et rerum omnis voluptates ullam unde molestias consectetur dolorem, laudantium, excepturi nihil!</td>
                         </tr>
-                        <tr>
+                        <tr  class="tr-even">
                             <td>lorem ipsum dolor</td>
                             <td>lorem ipsum dolor</td>
-                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque necessitatibus veniam suscipit in dolorem sunt? Delectus, ut rem et rerum omnis voluptates ullam unde molestias consectetur dolorem, laudantium, excepturi nihil!</td>
+                            <td class="tlargo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque necessitatibus veniam suscipit in dolorem sunt? Delectus, ut rem et rerum omnis voluptates ullam unde molestias consectetur dolorem, laudantium, excepturi nihil!</td>
                         </tr>
                     </tbody>
                     <tfoot>
-                        <tr>
+                        <tr class="tr-odd">
                             <td>lorem ipsum dolor</td>
                             <td>lorem ipsum dolor</td>
-                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque necessitatibus veniam suscipit in dolorem sunt? Delectus, ut rem et rerum omnis voluptates ullam unde molestias consectetur dolorem, laudantium, excepturi nihil!</td>
+                            <td class="tlargo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque necessitatibus veniam suscipit in dolorem sunt? Delectus, ut rem et rerum omnis voluptates ullam unde molestias consectetur dolorem, laudantium, excepturi nihil!</td>
                         </tr>
                     </tfoot>
                 </table>
@@ -85,9 +84,15 @@
     <!-- fine articolo -->
     <!-- inizio footer -->
     <footer>
-        <div>potrebbero interessarti</div>
-        <div><img src="img/monitor.jpg" alt="articolo monitor"></div>
-        <div><img src="img/graph.jpg" alt="articolo grafici"></div>
+        <div class="interesse grigio">potrebbero interessarti</div>
+        <div class="container">
+            <div class="img-txt">articolo monitor</div>
+            <img src="img/monitor.jpg" alt="articolo monitor">
+        </div>
+        <div class="container">
+            <div class="img-txt">articolo grafici</div>
+            <img src="img/graph.jpg" alt="articolo grafici">
+        </div>
     </footer>
 </body>
 </html>

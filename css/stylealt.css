@@ -3,7 +3,7 @@ body {
     margin: auto;
     padding: 0;
     text-align: center;
-    background-image: url(../img/pattern.png);
+    background-image: url('../img/pattern.png');
     background-color: lightgray;
 }
 
@@ -12,7 +12,7 @@ body {
 header {
     border-radius: 20px;
     border: 10px inset green;
-    background-image: url(../img/pattern.png);
+    background-image: url('../img/pattern.png');
     height: 150px;
     background-color: rgb(18, 173, 173);
     text-align: right;
